@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+   
+}
+
+.Header div img{
+    height: 60px;
+    width: 60px;
+}
+.Content{
+   line-height: 2.2rem;
+}
+
+#list_view img{
+    height: 250px;
+    width: 250px;
+}
+
+.Footer div img{
+    height: 20px;
+    width: 22px;
+}

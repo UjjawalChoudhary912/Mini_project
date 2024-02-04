@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+   
+}
+
+.Header div img{
+    height: 60px;
+    width: 60px;
+}
+
+
+.Content div img {
+    height: 150px;
+    width: 150px;
+}
+
+.Footer div img{
+    height: 20px;
+    width: 22px;
+}
+
