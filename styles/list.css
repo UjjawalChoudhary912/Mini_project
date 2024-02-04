@@ -5,6 +5,9 @@
     width: auto;
    
 }
+.Header{
+    background-color: rosybrown;
+}
 
 .Header div img{
     height: 60px;
@@ -14,6 +17,14 @@
    line-height: 2.2rem;
 }
 
+#list_view div{
+    background-color: rgb(132,136,139);
+    width: 40%;
+     /* margin-top: 25px; */
+     margin: 2%;
+     /* margin-right: 65%;  */
+    line-height: 2.2rem;
+}
 #list_view img{
     height: 250px;
     width: 250px;

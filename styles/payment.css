@@ -19,8 +19,27 @@
     height: 500px;
     width: 500px;
 }
+.wimg{
+    align-items: center;
+    background-color: rgb(132,136,139);
+    background-size: 40%;
+   margin: 2% 25%;
+    width: 50%;
+    height: 20%;
+}
+
+.person{
+    margin: 2%;
+}
+
+.box{
+  border: solid black 2px;
+  border-radius: 4px;
+  padding: 1% 2%;
+}
 
 .Footer div img{
+    margin: 0;
     height: 20px;
     width: 22px;
 }

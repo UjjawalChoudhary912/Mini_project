@@ -10,11 +10,35 @@
     height: 60px;
     width: 60px;
 }
+.Content{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
 
 .Content img{
     height: 500px;
     width: 500px;
+  
 }
+
+.Content form{
+    margin-bottom: 1%;
+}
+
+ .hotel{
+    line-height: 2rem;
+    margin-bottom: 2%;
+} 
+.hotel ul li{
+    margin-left: 4.5%;
+    line-height: normal;
+}
+.hotel p{
+    line-height: normal;
+}
+
+
 .Footer div img{
     height: 20px;
     width: 22px;
