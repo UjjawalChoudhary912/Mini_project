@@ -1,14 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    height: auto;
-    width: auto;
-   
-}
+     height: auto;
+    width: auto; 
+   }
+ 
+   .Header{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     box-sizing: border-box;
+ }
 
-.Header div img{
+.Header img{
     height: 60px;
     width: 60px;
+
+}
+.Header a {
+    margin-left: auto;
+    text-decoration: none;
+    color: #333; /* Example text color */
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -21,11 +39,19 @@
    background-repeat: no-repeat;
 }
 
-.img1 input[type="text"] {
+.img1 input {
     position: absolute; 
     top: 0;
     left: 0; 
-    margin:0; 
+    background-color: #f1f1f1;
+    border: 1px transparent;
+    align-items: center;
+    width: 400px;
+    margin-top: 185px;
+    height: 20px;
+    border-radius: 12px;
+    margin-left: 35%;
+    padding: 10px;
 }
 .cities{
     margin-left: 15%;
@@ -40,8 +66,26 @@
    
 }
 
+.Content .vmore{
+   text-align: center;
+   
+}
+.Content .vmore a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+
 .Footer div img{
     height: 20px;
     width: 22px;
+    
 }
+
+.Footer div{
+    display: flex;
+    align-items: center;
+    
+}
+
 

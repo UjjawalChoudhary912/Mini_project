@@ -6,14 +6,15 @@
    
 }
 
-.Header div img{
+.Header a img{
     height: 60px;
     width: 60px;
 }
 .Content{
-    margin-top: 2%;
+    margin-top: 140px;
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 100px;
 }
 
 .Content img{
@@ -29,10 +30,21 @@
  .hotel{
     line-height: 2rem;
     margin-bottom: 2%;
+}
+.hotel p{
+    margin-top: 2%;
+    margin-bottom: 2%;
 } 
+.hotel ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .hotel ul li{
     margin-left: 4.5%;
     line-height: normal;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .hotel p{
     line-height: normal;

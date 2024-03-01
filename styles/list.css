@@ -1,34 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
+    font-family: 'Ubuntu', sans-serif;
    
 }
 .Header{
     background-color: rosybrown;
+    
 }
 
-.Header div img{
+.Header a img{
     height: 60px;
     width: 60px;
 }
 .Content{
    line-height: 2.2rem;
+   padding: 50px;
 }
 
-#list_view div{
-    background-color: rgb(132,136,139);
-    width: 40%;
-     /* margin-top: 25px; */
-     margin: 2%;
-     /* margin-right: 65%;  */
+.lmview {
+    text-align: center; 
+  }
+  
+  .lmview ul {
+    list-style: none; 
+    padding: 0; 
+    display: inline-flex; 
+    gap: 20px; 
+    justify-content: center; 
+  }
+  
+  
+  
+  .lmview ul li a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+
+
+#list_view {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 70px;
+    margin-right: 80px;
+    margin-left: 30px;
+  }
+  
+  #list_view div .rad{
+        text-decoration: none;
+        color: black;
+       
+  }
+  #list_view div {
+    background-color: rgb(132, 136, 139);
+    width: calc(50% - 4%); 
+    margin: 2%;
     line-height: 2.2rem;
-}
-#list_view img{
+   
+  }
+  
+  #list_view img {
     height: 250px;
     width: 250px;
-}
+  }
+  
 
 .Footer div img{
     height: 20px;

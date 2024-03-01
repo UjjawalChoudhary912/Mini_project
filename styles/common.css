@@ -1,6 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
-.Header, .Footer{
+
+.Header{
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   z-index: 100; 
+   }
+
+   .Header {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .Header a {
+   
+    text-decoration: none;
+    color: #333; /* Example text color */
+    font-weight: bold;
+    font-size: 16px;
+  
+}
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rosybrown;
+    z-index: 1000;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer .rsearch{
+    font-size: 10px;
+   padding-top: 20px ;
+}
+
+.Footer a {
+   
+    text-decoration: none;
+    color: #333; /* Example text color */
+    font-weight: bold;
+    font-size: 16px;
+  
+   
 }
